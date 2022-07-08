@@ -1,0 +1,222 @@
+@import url(./reset.css);
+body {
+    color: black;
+    font-family: "Poppins";
+    font-size: 14px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.title__1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #070707;
+    color: white;
+    padding: 7px 22px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #323232;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+
+/*header*/
+
+.header {
+    padding-top: 46px;
+    background-color: #f1f1f1;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0px;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    padding-right: 12px;
+    padding-bottom: 2px;
+    line-height: 1;
+}
+
+.logo::after {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    background-color: #fda300;
+    border-radius: 50%;
+}
+
+
+/* NAV  */
+
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav__link {
+    color: #000;
+}
+
+.nav__link.active {
+    color: #606060;
+}
+
+.nav__button {
+    display: none;
+}
+
+
+/* Header content  */
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header__content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
+.header__content p {
+    line-height: 2;
+}
+
+
+/* Service */
+
+.services {
+    padding: 90px 0;
+}
+
+.services__row {
+    display: flex;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+
+.services__card {
+    flex: 1 1 0;
+    min-width: 315px;
+}
+
+.services__card__img {
+    margin-bottom: 30px;
+}
+
+.services__card__title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.services__card p {
+    line-height: 2;
+}
+
+
+/* Portfolio */
+
+.portfolio {
+    background-color: #f1f1f1;
+    padding: 90px 0px;
+}
+
+.portfolio__title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project+.project {
+    margin-top: 60px;
+}
+
+.project__img {
+    margin-bottom: 40px;
+}
+
+.project__title {
+    font-size: 18px;
+}
+
+.project__title a {
+    color: #000;
+    text-decoration: underline;
+}
+
+
+/* Contacts/ Footer */
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts__title {
+    margin-bottom: 40px;
+}
+
+.contacts__content {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.contacts__button {
+    margin-bottom: 80px;
+}
+
+.contacts__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts__footer {
+    color: #828282;
+}
